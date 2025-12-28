@@ -11,7 +11,7 @@ services:
  application:
    image: naveen6528/mynewapp:appimage
    deploy:
-    replicase: 3
+    replicas: 3
    ports:
      - "6528:8080"
    depends_on:
